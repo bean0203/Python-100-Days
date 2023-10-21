@@ -1,0 +1,9 @@
+# Day 2: How many days left in your life? 
+# apparently, the world average is 72.27 (around 73 years old). 
+
+age = input() 
+years = 73 - int(age) 
+weeks = years * 52 
+days = weeks * 7 
+
+print(f"You have {days} days left. How would you spend your today?") 
