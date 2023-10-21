@@ -5,7 +5,7 @@ import random
 print("Let's create our camp group name!\n")
 
 #2. Ask your team members
-group_name_suggestions = input("what do you think our group name should be?\n")
+group_name_suggestions = input("What do you think our group name should be?\n")
 group_name_suggestions = group_name_suggestions.split(',')
 
 #3. Let's find the group name from the random selection 
