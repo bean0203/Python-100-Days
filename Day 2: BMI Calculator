@@ -1,0 +1,10 @@
+# let's create a BMI calcuator
+# ~personally, BMI calculator is BS~~
+
+height = int(input())
+weight = float(input()) 
+
+# using exponent operator ** 
+BMI = int(weight/height ** 2)
+print(BMI) 
+
