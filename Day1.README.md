@@ -1,6 +1,6 @@
 # Python-100-Days
 
-## Day 1
+## Day 1: Random Camp Group Name Generator
 
 ### 1. Let's create a random camp group name 
 import random
