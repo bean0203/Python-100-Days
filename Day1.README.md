@@ -10,7 +10,7 @@ print("Let's create our camp group name!\n")
 group_name_suggestions = input("what do you think our group name should be?\n")
 group_name_suggestions = group_name_suggestions.split(',')
 
-###3. Let's find the group name from the random selection 
+### 3. Let's find the group name from the random selection 
 chosen_group_name = random.choice(group_name_suggestions)
 print("Our camp group name is:\n\n\n ","~Drum roll plz!!~\n\n\n",  
 chosen_group_name)
