@@ -8,3 +8,21 @@ weight = float(input())
 BMI = int(weight/height ** 2)
 print(BMI) 
 
+# BMI_2.0: BMI based on the BMI value 
+
+height = int(input())
+weight = float(input()) 
+
+# use if-elif-else
+BMI = float(weight/height ** 2) 
+print(BMI)
+if BMI < 18.5: 
+  print("underweight") 
+elif BMI <= 25:
+  print("normal weight") 
+elif BMI <= 30:
+  print("slightly overweight")
+elif BMI <= 35:
+  print("obese")
+else:
+  print("clinically obese") 
