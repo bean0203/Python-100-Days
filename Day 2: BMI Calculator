@@ -1,8 +1,8 @@
 # let's create a BMI calcuator
 # ~personally, BMI calculator is BS~~
 
-height = int(input())
-weight = float(input()) 
+height = float(input()) # height is in meters
+weight = int(input()) 
 
 # using exponent operator ** 
 BMI = int(weight/height ** 2)
@@ -10,8 +10,8 @@ print(BMI)
 
 # BMI_2.0: BMI based on the BMI value 
 
-height = int(input())
-weight = float(input()) 
+height = float(input()) # meters
+weight = int(input()) 
 
 # use if-elif-else
 BMI = float(weight/height ** 2) 
