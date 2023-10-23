@@ -14,7 +14,7 @@ height = float(input()) # meters
 weight = int(input()) 
 
 # use if-elif-else
-BMI = float(weight/height ** 2) 
+BMI = float(round(weight/height ** 2, 2)) # 2 decimal points
 if BMI < 18.5: 
   print(f"Your BMI is {BMI}, you are underweight.") 
 elif BMI < 25:
