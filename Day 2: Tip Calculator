@@ -4,7 +4,7 @@ bill = float(input("What was the total bill? $"))
 tip_percentage = int(input("How much tip would you like to give? (don't add the percentage sign!"))
 ppl = int(input("How many people to split the bill?")) 
 bill_with_tip = bill*(1+tip_percentage/100)
-# 2 decimal points 
+# 2 decimal points (format function)
 final_amount = "{:.2f}".format(bill_with_tip/ppl)
 print(f"Each person should pay {final_amount}")
 https://replit.com/@soe9823/Day-2-Tip-Calculator-1?v=1 
