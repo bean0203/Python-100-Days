@@ -1,0 +1,31 @@
+# Day 3: Leap Year
+# Let's find a leap year! 
+print("Let's find a leap year!\n") 
+year = int(input())
+print('\n')
+
+print("Is it cleanly divisible by 4?") 
+if year % 4 == 0: 
+  print("Is it cleanly divisible by 100?") 
+  if year % 100 == 0: #not a leap year
+    print("Is it cleanly divisible by 400?")
+    if year % 400 == 0: 
+      print("Leap year!")
+    else:
+      print("Not leap year")
+  else: 
+    print("Leap year!")     
+else:
+  print("Not leap year")
+
+# without questions 
+if year % 4 == 0: 
+  if year % 100 == 0: 
+    if year % 400 == 0:
+      print("Leap year")
+    else: 
+      print("Not leap year")
+  else: 
+    print("Leap year")
+else:
+  print("Not leap year") 
