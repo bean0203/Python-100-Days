@@ -14,7 +14,14 @@ height = float(input()) # meters
 weight = int(input()) 
 
 # use if-elif-else
-BMI = float(round(weight/height ** 2, 2)) # 2 decimal points
+BMI = float(round(weight/height ** 2, 2)) # 2 decimal points (however, round function sometimes ignores 0)
+
+## orrr use format funcion for actual 2 decimal points
+#BMI = "{0:.2f}".format(weight/height ** 2) # format function turns into str -> needs to convert it to float
+#BMI = float(BMI) 
+
+### or just one line: BMI = float("{0:.2f}".format(weight/height ** 2))
+
 if BMI < 18.5: 
   print(f"Your BMI is {BMI}, you are underweight.") 
 elif BMI < 25:
