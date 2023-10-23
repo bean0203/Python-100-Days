@@ -1,0 +1,43 @@
+# Day 3: Rollercoaster
+# if-elif-else
+
+# Can you ride the rollercoaser?
+print("Welcome to the rollercoaster!")
+height = int(input("What is your height in cm?"))
+
+# if,elif,else -> only one of A, B, or C will be carried out. 
+# Multiple if -> all n conditions are checked and if it's n conditions are true -> A, B, and C will be carried out. 
+
+if height >= 120: 
+  print("You can ride the rollercoaster!")
+  age = int(input("what is your age?"))
+  if age < 12:
+    print("Please pay $5.")
+  elif age <= 18:
+    print("please pay $7.") #you can use multiple elifs
+  else:
+    print("Please pay $12.")
+else: 
+  print("Sorry, you have to grow taller before you can ride.")
+
+# How about the photos?
+if height >= 120: 
+  print("You can ride the rollercoaster!")
+  age = int(input("what is your age?"))
+  if age < 12:
+    bill = 5
+    print("Child tickets are $5.")
+  elif age <= 18:
+    bill = 7 
+    print("Youth tickets are $7.") #you can use multiple elifs
+  else:
+    bill = 12
+    print("Adult tickets are $12.")
+  wants_photo = input("Do you want a photo taken? Y or N.") 
+  if wants_photo == "Y: 
+  # add $3 to their bill 
+    bill += 3 
+  print(f"Your final bill is ${bill}.") 
+else:
+  print("Sorry, you have to grow taller before you can ride.")
+
