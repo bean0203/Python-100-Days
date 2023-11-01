@@ -1,7 +1,7 @@
 # let's create a BMI calcuator
 # ~personally, BMI calculator is BS~~
 
-height = float(input()) # height is in meters
+height = float(input()) # height is in meters (e.g. 160cm = 1.6m) 
 weight = int(input()) 
 
 # using exponent operator ** 
@@ -32,3 +32,7 @@ elif BMI < 35:
   print(f"Your BMI is {BMI}, you are obese.")
 else:
   print(f"Your BMI is {BMI}, you are clinically obese.") 
+
+
+
+
