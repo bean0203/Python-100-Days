@@ -1,4 +1,4 @@
-# Day 3 - Pizza Price 
+# Day 3 -Pizza Price 
 print("Thank you for coming to Py Pizza!")
 size = input() # what size pizza do you want: 's', 'm', 'l'
 add_pepperoni = input() #do you want pepperoni yes or no
